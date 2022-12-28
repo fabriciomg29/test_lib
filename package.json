@@ -35,16 +35,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "alurabooks",
+  "name": "first-lib-front-end",
   "author": "Fabricio Goulart",
-  "module": "dist/alurabooks.esm.js",
+  "module": "dist/first-lib-front-end.esm.js",
   "size-limit": [
     {
-      "path": "dist/alurabooks.cjs.production.min.js",
+      "path": "dist/first-lib-front-end.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/alurabooks.esm.js",
+      "path": "dist/first-lib-front-end.esm.js",
       "limit": "10 KB"
     }
   ],
