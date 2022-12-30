@@ -8,14 +8,14 @@ export interface BotaoProps {
 }
 
 const BotaoEstilizado = styled.button<BotaoProps>`
-  background-color: ${props => props.tipo === 'primario' ? '#EB9B00' : '#FFF'};
+  background-color: ${(props: BotaoProps) => props.tipo === 'primario' ? '#EB9B00' : '#FFF'};
   padding: 16px 32px;
   border: 2px solid #EB9B00;
-  color: ${props => props.tipo === 'primario' ? '#FFF' : '#EB9B00'};
+  color: ${(props: BotaoProps) => props.tipo === 'primario' ? '#FFF' : '#EB9B00'};
   font-size: 20px;
   cursor: pointer;
 
-  ${props => props.tipo === 'primario'
+  ${(props: BotaoProps) => props.tipo === 'primario'
     ?
     css`
       &:hover {
